@@ -20,7 +20,7 @@
 @media (min-width: 376px) and (max-width:1440px) {
     body {
         width: 100vw;
-        height: 100vh;
+        height: 120vh;
     }
     .container {
         width: 100%;
@@ -29,7 +29,7 @@
         background-color: var(--FirstMainColor, #f5f7ff);
         display: grid;
         grid-template-columns: auto 350px auto;
-        grid-template-rows: 160px auto 80px;
+        grid-template-rows: 160px calc(100% - 240px) 80px;
     }
     .main {
         grid-area: 2 / 2 / 3 / 3;
