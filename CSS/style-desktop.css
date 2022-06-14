@@ -19,7 +19,7 @@
 
 @media (min-width: 376px) and (max-width:1440px) {
     body {
-        width: 98vw;
+        width: 100vw;
         height: 120vh;
     }
     .container {
