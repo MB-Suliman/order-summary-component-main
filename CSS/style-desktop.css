@@ -29,7 +29,7 @@
         background-color: var(--FirstMainColor, #f5f7ff);
         display: grid;
         grid-template-columns: auto 350px auto;
-        grid-template-rows: 60px calc(100% - 120px) 60px;
+        grid-template-rows: 160px auto 80px;
     }
     .main {
         grid-area: 2 / 2 / 3 / 3;
